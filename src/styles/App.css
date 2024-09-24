@@ -7,6 +7,7 @@ html, body {
     height: 75%;
     vertical-align: baseline;
     padding-top: 10%;
+    
 }
 
 #root {
@@ -50,4 +51,18 @@ button {
 .btn-green {
     background: rgb(44, 209, 88);
     color: black;
+}
+
+#children-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
 }
